@@ -7,7 +7,10 @@
     <link rel="stylesheet" href="landing.css" />
 </head>
 <body>
+
     <header class="header">
+        <img src="logo.png" alt="Logo Nijan" class="logo">
+
         <nav class="nav">
             <a href="#home">Beranda</a>
             <a href="#about">Tentang</a>
@@ -16,34 +19,31 @@
         </nav>
     </header>
 
-    <header>
-        <img src="logo.png" alt="Logo smk merdeka" class="logo" />
-    </header>
-
     <section class="hero" id="home">
         <div class="hero-content">
-            <h1>Nikmati Makanan Favoritmu dengan ginjal</h1>
+            <h1>Nikmati Makanan Favoritmu dengan Nijan</h1>
             <p>Antar makanan dari restoran terbaik langsung ke pintu rumahmu</p>
-
-            <!-- Tombol LOGIN yang mengarah ke login.php -->
             <a href="login.php" class="btn-login">LOGIN</a>
         </div>
     </section>
 
     <section class="about" id="about">
-        <h2>Tentang GoFood</h2>
+        <h2>Tentang Nijan Food</h2>
         <p>
-            MDK.GFOOD adalah layanan pesan-antar makanan dari nijan. Dengan ribuan mitra restoran, kamu bisa memilih makanan favorit kapan saja dan di mana saja.
+            Nijan Food adalah layanan pesan-antar makanan. Dengan ribuan mitra restoran,
+            kamu bisa memilih makanan favorit kapan saja dan di mana saja.
         </p>
     </section>
 
     <section class="contact" id="contact">
         <h2>Hubungi Kami</h2>
-        <p>📞 0899221 | ✉️ smkmerdekasuuport.com</p>
+        <p>📞 0899221 | ✉️ smkmerdekasupport.com</p>
     </section>
 
     <footer class="footer">
         <p>&copy; <?= date("Y"); ?> Nijan. All rights reserved.</p>
     </footer>
+
 </body>
 </html>
+
